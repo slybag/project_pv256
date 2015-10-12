@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.firstTheme" parent="Theme.AppCompat">
-        <item name="colorPrimary">@color/material_blue_grey_900</item>
-        <item name="colorPrimaryDark">@color/material_blue_grey_800</item>
+    <style name="firstTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/material_blue_grey_800</item>
+        <item name="colorPrimaryDark">@color/material_blue_grey_900</item>
         <item name="colorAccent">@color/material_deep_teal_200</item>
     </style>
 
-    <style name="Theme.secondTheme" parent="Theme.firstTheme">
+    <style name="secondTheme" parent="firstTheme">
         <item name="colorPrimary">@color/customPrimary</item>
         <item name="colorAccent">@color/customAccent</item>
     </style>
