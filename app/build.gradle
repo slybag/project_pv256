@@ -1,8 +1,12 @@
 apply plugin: 'com.android.application'
 
+def versionMajor = 1
+def versionMinor = 0
+def versionTag = 1
+
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
 
     defaultConfig {
         applicationId "movio.pv256.fi.muni.cz.android_project"
@@ -10,7 +14,23 @@ android {
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
+
+        resConfigs "cs", "en"
+        versionCode versionMajor * 100 + versionMinor
+        versionName "${versionMajor}.${versionMinor}.${versionTag}"
     }
+
+    productFlavors {
+        primary {
+            applicationId "movio.pv256.fi.muni.cz.android_project"
+            buildConfigField "boolean", "LOGGING_ENABLED", "true"
+        }
+        secondary {
+            applicationId "movio.pv256.fi.muni.cz.android_project"
+            buildConfigField "boolean", "LOGGING_ENABLED", "false"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -21,5 +41,15 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+    compile 'com.squareup.moshi:moshi:1.0.0'
+    compile 'com.squareup.okio:okio:1.6.0'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'com.tonicartos:superslim:0.4.13'
+    compile 'com.github.castorflex.smoothprogressbar:library-circular:1.2.0'
+    testCompile 'junit:junit:4.12'
 }

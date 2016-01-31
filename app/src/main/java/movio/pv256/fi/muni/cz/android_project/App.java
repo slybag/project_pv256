@@ -9,13 +9,19 @@ import android.os.StrictMode;
  */
 public class App extends Application {
 
-    public final String API_KEY = "4676b2ad373f69b4c152cb41314548ff";
+    private static App mInstance;
+
+
+    public static App get() {
+        return mInstance;
+    }
 
     @Override
     public void onCreate() {
         super.onCreate();
+        mInstance = this;
 
-        if (BuildConfig.DEBUG) {
+        if (Config.STRICT_MODE_ENABLED) {
             initStrictMode();
         }
     }

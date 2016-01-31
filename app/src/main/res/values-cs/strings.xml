@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="action_settings">Nastavení</string>
+  <string name="activity_detail">Detail filmu</string>
+  <string name="empty_list">Žádná data</string>
+  <string name="no_connection">Nedostupné připojení</string>
+  <string name="select_movie_first">Pro zobrazeni detailu vyberte ze seznamu</string>
+  <string name="category1">Tento týden v kinech</string>
+  <string name="category2">Tento měsíc v kinech</string>
+  <string name="category3">Tento rok v kinech</string>
+  <string name="saved">Uložené</string>
+  <string name="updated">%1$d z vašich %2$d oblíbených bylo aktualizováno.</string>
+  <string name="label_cast">Hrají</string>
+  <string name="label_overview">Obsah</string>
+</resources>

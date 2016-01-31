@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="action_settings">tuNastav</string>
+  <string name="activity_detail">detail TU</string>
+  <string name="empty_list">Nejsu obrazky</string>
+  <string name="no_connection">Neni spojeni se svetem</string>
+  <string name="select_movie_first">Vyber film</string>
+  <string name="category1">kat1</string>
+  <string name="category2">V kine</string>
+  <string name="category3">Bude casem</string>
+  <string name="saved">Ulozene</string>
+  <string name="updated">Updejtle</string>
+  <string name="label_cast">herci</string>
+  <string name="label_overview">Popis</string>
+</resources>

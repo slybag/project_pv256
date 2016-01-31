@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="action_settings">Nastavovačka</string>
+  <string name="activity_detail">Obrazkohyb drobnohledem</string>
+  <string name="empty_list">Neni co dat do listu</string>
+  <string name="no_connection">Nemaš net!</string>
+  <string name="select_movie_first">Nevybralsi nic!</string>
+  <string name="category1">Skoro na staženi</string>
+  <string name="category2">Kukni v kině</string>
+  <string name="category3">Si počkáš</string>
+  <string name="saved">Užsompozrel</string>
+  <string name="updated">%1$d of your %2$d favorites were updated.</string>
+  <string name="label_cast">Kohouvidiš</string>
+  <string name="label_overview">Očemtoje</string>
+</resources>
