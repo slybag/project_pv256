@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_add.png" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_normal.png" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_remove.png" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_small.png" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/im_no_back.png" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/im_no_poster.png" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/im_placeholder_back.png" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/im_placeholder_poster.png" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_detail.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/menu_checkable_item.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar_switch.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/view_cast_item.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/view_empty.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/view_movie_header.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/view_movie_item.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/view_no_connection.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/view_separator.xml" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/primary" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/secondary" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values-cs" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values-en" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values-ja" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/values-ja" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml" charset="windows-1250" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
